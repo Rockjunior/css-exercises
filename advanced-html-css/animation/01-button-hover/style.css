@@ -17,3 +17,20 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+/* My Answer was this: */
+
+/* .button:hover,
+.button:focus{
+  color: white;
+  background-color: #2563eb;
+  transform: scale(1.50);
+} */
+
+.button{
+  transition: transition .3s ease-in-out;
+}
+
+.button:hover{
+  transform: scale(1.20);
+}
