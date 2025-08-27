@@ -72,3 +72,7 @@ button {
 .popup-modal.show{
   transform:translate(-50%, -50%);
 }
+
+.popup-modal.show{
+  transition: transform 0.3s ease-in-out;
+}
